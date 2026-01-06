@@ -1,0 +1,30 @@
+# --- Binaries and Executables ---
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bin/
+# This ignores the compiled bank application
+bank_simulation
+
+# --- OS Generated Files ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Go Dependencies ---
+vendor/
+
+# --- SQLC & Database ---
+# If you use environment variables for DB connection strings
+.env
+*.env
+sqlc.yaml.local
+
+# --- IDEs and Editors ---
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
